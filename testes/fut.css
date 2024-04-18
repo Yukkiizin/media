@@ -1,0 +1,45 @@
+h1{
+    text-align: center;
+    
+}
+button{
+    background-color: black;
+    position: absolute;
+    right: 0;
+    border-radius: 20px;
+    height: 30px;
+}
+button a{
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    
+}
+div{
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;/* Centraliza verticalmente */
+    height: 100vh; /* Define a altura para ocupar toda a altura da viewport */
+}
+
+table{
+    border-collapse: collapse;
+}
+td, th{
+    border: 1px solid red;
+    padding: 20px;
+}
+th{
+    background-color: rgb(75, 75, 75);
+    color: white;
+}
+tr:nth-child(even){
+    background-color: gray;
+}
+.oie{
+    
+    display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh; 
+}

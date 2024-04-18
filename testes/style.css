@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+    text-decoration: none;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+header{
+    background-color: lightgrey;
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+header h1{
+    margin-left:40px;
+     /*margin: auto; Centralizar o Noticias pq o text aling nn dava*/
+}
+nav li {
+    display: inline-block; /* pra q fique do lado os link*/
+}
+ul{
+    margin-right: 16px;
+}
+div {
+    display: none;/* pro menu nn aparecer na tela*/
+    position: absolute; /* pra q nn empurre pro lado quando eu passa o mouse*/
+    background-color: lightgray;
+}
+li a{
+    padding: 15px;
+    display: block;/* pro links fica como bloco e nn aparecer um do lado do outro*/
+    
+}
+a:hover{
+    background-color: aqua;
+}
+.mouse:hover div{
+    display: block;/* pro menu aparecer quando eu passa o mouse*/
+
+}
+img{
+    width: 600px;
+    margin-top: 30px ;
+    margin-bottom: 30px ;
+}
+article{
+    width: 600px;
+    margin:  2rem auto ;
+  
+}
+article h1{
+    text-align: center;
+    margin: 20px;
+}
+article p {
+    line-height: 1.5em;
+    text-align: center;
+}
+
+footer{
+    background-color: black;
+    
+}
+footer p{
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+main{
+    display: flex;
+}

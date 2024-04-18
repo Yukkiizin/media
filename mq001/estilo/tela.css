@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+/*ESTILO PARA TELA*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+header{
+    background-color: rgb(211, 211, 211);
+}
+header h1{
+    text-align: center;
+}
+menu ul {
+    list-style-type: none;
+    background-color: gray;
+}
+ul li {
+    padding: 10px;
+    background-color: rgb(75, 75, 75);
+    display: inline-block;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+article{
+    display: block;
+    width: 600px;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*ESTILO PARA TELA
+body{
+    background-color: darkblue;
+    color: red;
+}
+header{
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    
+    margin: auto;
+
+}
+header h1{
+    margin-left: 12px;
+    margin: auto;
+}
+ul {
+    display: flex;
+}
+li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    list-style: none;
+    margin: 10px;
+    background-color: white;
+    padding: 14px;
+    color: black;
+
+}
+ul li a:hover{
+    background-color: black;
+    color: white;
+    transition: 1s;
+}ESTILO PARA TELA*/
