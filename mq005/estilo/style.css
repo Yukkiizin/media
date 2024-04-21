@@ -17,8 +17,21 @@ header h1{
     text-align: center;
     padding: 10px;
 }
+ 
 header menu{
+    display: none;
+}
+#burguer{
+    background-color: #303030;
     display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+#burguer:hover{
+    background-color: white;
+    color: black;
 }
 menu ul{
     list-style-type: none;
